@@ -1,8 +1,9 @@
 const app = require('./app');
+const logger = require('./middlewares/logger');
 require('dotenv').config();
 
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-    // log that server has been started
+    logger.info(`server started at port ${port}`)
 });
