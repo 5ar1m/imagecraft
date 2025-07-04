@@ -1,0 +1,16 @@
+{
+  "name": "imagecraft",
+  "version": "1.0.0",
+  "description": "image processing service",
+  "license": "ISC",
+  "author": "sarim",
+  "type": "commonjs",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "nodemon src/main.js",
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
