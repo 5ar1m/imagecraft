@@ -1,7 +1,5 @@
 # Image Processing Service
 
-This project is based on [Image Processing Service](https://roadmap.sh/projects/image-processing-service) roadmap.
-
 ## Overview
 
 A scalable image processing service built with Node.js that handles image uploads, transformations, and storage. Features include:
